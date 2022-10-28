@@ -17,6 +17,6 @@ Open browser and open:
 
 If you see a bar about an updated version available (and you're very annoyed by it), you can redeploy container with new image:
 
-> docker compose down\ 
-> docker rmi ghcr.io/ajnart/homarr\ 
+> docker compose down<br/> 
+> docker rmi ghcr.io/ajnart/homarr<br/> 
 > ndocker compose up -d
