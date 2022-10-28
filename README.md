@@ -19,4 +19,4 @@ If you see a bar about an updated version available (and you're very annoyed by 
 
 > docker compose down<br/> 
 > docker rmi ghcr.io/ajnart/homarr<br/> 
-> ndocker compose up -d
+> docker compose up -d
