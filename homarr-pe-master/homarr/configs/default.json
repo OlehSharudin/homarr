@@ -1,0 +1,90 @@
+{
+  "name": "default",
+  "services": [
+    {
+      "id": "9e26fb8c-c919-40ae-946c-c2730823a09e",
+      "type": "Other",
+      "category": "APEs",
+      "name": "Ukraine Air Alarms",
+      "icon": "/icons/redalert.png",
+      "url": "https://alerts.in.ua/",
+      "newTab": false
+    },
+    {
+      "id": "f9de5411-0ce8-4903-8bcc-76309a09f833",
+      "type": "Other",
+      "category": "APEs",
+      "name": "UA Situation Map",
+      "icon": "/icons/liveuamap.png",
+      "url": "https://liveuamap.com/",
+      "newTab": false
+    },
+    {
+      "id": "93216952-999d-473b-8080-ea6afd2e1e4d",
+      "type": "Other",
+      "category": "APEs",
+      "name": "Deepstate OSINT map",
+      "icon": "/icons/deepstate.png",
+      "url": "https://deepstatemap.live/#6/49.438/32.053",
+      "newTab": false
+    },
+    {
+      "id": "05ec7c4e-5e8f-4077-bb02-f2ee1eac3541",
+      "type": "Other",
+      "category": "APEs",
+      "name": "MyCiklum",
+      "icon": "/icons/ciklum.jpg",
+      "url": "https://my.ciklum.com/",
+      "newTab": false
+    },
+    {
+      "id": "a95062ee-1ad1-4c6c-9d4d-6b9a07db98f6",
+      "type": "Other",
+      "category": "APEs",
+      "name": "UA Checkin",
+      "icon": "/icons/checkin.png",
+      "url": "https://bit.ly/UA_check",
+      "newTab": false
+    }
+  ],
+  "settings": {
+    "searchUrl": "https://www.google.com/search?q=",
+    "appCardWidth": 1.4000000000000001,
+    "widgetPosition": "right",
+    "title": "APE's Apps Homepage",
+    "logo": "/icons/ape.png"
+  },
+  "modules": {
+    "Calendar": {
+      "enabled": true
+    },
+    "Date": {
+      "enabled": true
+    },
+    "Weather": {
+      "enabled": true,
+      "options": {
+        "location": {
+          "value": "Kyiv"
+        }
+      }
+    },
+    "Ping Services": {
+      "enabled": false
+    },
+    "calendar": {
+      "enabled": true
+    },
+    "date": {
+      "enabled": true
+    },
+    "weather": {
+      "enabled": true,
+      "options": {
+        "location": {
+          "value": "Kyiv"
+        }
+      }
+    }
+  }
+}
